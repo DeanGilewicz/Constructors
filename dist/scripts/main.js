@@ -65,7 +65,7 @@ var Human = function(options) {
   };
   this.feed = function (animal) {
     animal.hungry = false;
-  }
+  };
 };
 
 
