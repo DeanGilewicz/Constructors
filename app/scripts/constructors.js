@@ -39,7 +39,7 @@ function expect(target) {
 var Dog = function(options) {
   var options = options || {};
   this.color = options.color;
-  this.hungry = this.hungry = (options.hungry === undefined) ? true: options.hungry;
+  this.hungry = (options.hungry === undefined) ? true: options.hungry;
   // if (options.hungry === undefined) {
   //     this.hungry = true;
   //   } else {
