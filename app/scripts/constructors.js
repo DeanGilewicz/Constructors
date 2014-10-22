@@ -40,11 +40,10 @@ var Dog = function(options) {
   this.color = options.color;
   this.hungry = (options.hungry === undefined) ? true: options.hungry;
   // if (options.hungry === undefined) {
-  //     this.hungry = true;
-  //   } else {
-  //     this.hungry = options.hungry;
-  //   }
-  // };
+  //   this.hungry = true;
+  // } else {
+  //   this.hungry = options.hungry;
+  // }
   this.status = options.status || "normal";
   this.owner = options.owner;
 };
@@ -54,11 +53,10 @@ var Human = function(options) {
   var options = options || {};
   this.cool = (options.cool === undefined) ? false: options.cool;
   // if (options.cool === undefined) {
-  //     this.cool = false;
-  //   } else {
-  //     this.cool = options.cool;
-  //   }
-  // };
+  //   this.cool = false;
+  // } else {
+  //   this.cool = options.cool;
+  // }
   this.pet = function (animal) {
     animal.status = "happy";
   };
