@@ -34,7 +34,6 @@ function expect(target) {
 // / /__/ /_/ / / / (__  ) /_/ /  / /_/ / /__/ /_/ /_/ / /  (__  )
 // \___/\____/_/ /_/____/\__/_/   \__,_/\___/\__/\____/_/  /____/
 //
-// Only add code to *THIS* section!
 
 var Dog = function(options) {
   var options = options || {};
