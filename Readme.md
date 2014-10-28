@@ -12,4 +12,4 @@ Libraries:
 * Underscore
 
 Deployment:
-* Heroku - serene-tor-8858.herokuapp.com
+* Heroku - https://serene-tor-8858.herokuapp.com/
